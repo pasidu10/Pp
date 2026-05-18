@@ -1,0 +1,21 @@
+/* Smooth Scrolling Effect */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Neon Glow Effect on hover cards */
+.group:hover {
+    box-shadow: 0 10px 30px -10px rgba(34, 211, 238, 0.2);
+}
+
+/* Custom Selection Color */
+::selection {
+    background-color: #ec4899;
+    color: #ffffff;
+}
+
+/* Base styling tweaks for gradients */
+.text-transparent {
+    -webkit-background-clip: text;
+    background-clip: text;
+}
